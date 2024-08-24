@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+/** box1 **/
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 110px;
+    border: 2px solid transparent;
+}
+
+.logo {
+    background-image: url(./Assists/amazon_logo.png);
+    background-size: cover;
+    height: 45px;
+    width: 100%;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/** box2 **/
+.add-1 {
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+
+.add2 {
+    color: #ffffff;
+    font-size: 0.85rem;
+    margin-left: 3px;
+
+}
+
+.icon {
+    display: flex;
+    height: 14px;
+}
+
+.nav-address {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+/** Box3 **/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 510px;
+    height: 40px;
+    background-color: rgb(rgb(255, 136, 0), green, blue)
+}
+
+.border2:hover {
+    border: 2px solid orange;
+}
+
+.nav-search>select {
+    height: 40px;
+    width: 60px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    background-color: #e6e6e6;
+    border: none;
+    text-align: center;
+}
+
+.nav-search>input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 0.90rem;
+    padding-left: 10px;
+}
+
+.search-icon {
+    width: 50px;
+    height: 40px;
+    font-size: 1.01rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 136, 0);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    color: black;
+
+}
+
+/* Box4 */
+.flag {
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #0f1111;
+    padding: 5px;
+
+}
+
+/* Box5 */
+.nav-signin {
+    font-size: 0.70rem;
+
+}
+
+.accounts {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Box6 */
+.returns {
+    font-size: 0.70rem;
+}
+
+.orders {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Box7 */
+.cart {
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.cart i {
+    font-size: 30px;
+}
+
+.cart p {
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding-left: 3px;
+}
+
+/* Navbar Completed */
+
+/* Panel */
+.panel {
+    background-color: #232f3e;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.panel-bar {
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 0.90rem;
+    font-weight: 400;
+}
+
+.panel-bar2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 30px;
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+
+/* Hero-Section */
+.hero {
+    background-image: url(./Assists/hero-image.jpg);
+    background-size: cover;
+    height: 200px;
+
+
+}
+
+
+/* Boxes */
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(gray, white, rgb(165, 165, 165));
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    padding-bottom: 20px;
+}
+
+.box1 {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 55px;
+    margin-top: 33px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.box1 p {
+    color: rgb(67, 120, 236);
+    margin-top: 55px;
+
+}
+
+.box2 {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 44px;
+}
+
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.box2 p {
+    color: rgb(67, 120, 236);
+    margin-top: 20px;
+}
+
+.box3 {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.box3 p {
+    color: rgb(67, 120, 236);
+    margin-top: 20px;
+}
+
+.box4 {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.box4 p {
+    color: rgb(67, 120, 236);
+    margin-top: 20px;
+}
+
+.box5 {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.box5 p {
+    color: rgb(67, 120, 236);
+    margin-top: 20px;
+}
+
+.box6 {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.box6 p {
+    color: rgb(67, 120, 236);
+    margin-top: 30px;
+}
+
+.box7 {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.box7 p {
+    color: rgb(67, 120, 236);
+    margin-top: 30px;
+}
+
+.box8 {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.box8 p {
+    color: rgb(67, 120, 236);
+    margin-top: 10px;
+}
+
+.box4 {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.box4 p {
+    color: rgb(67, 120, 236);
+    margin-top: 10px;
+}
+
+/* Footer */
+.foot1 {
+    height: 170px;
+    background-color: white;
+    color: #0f1111;
+    display: flex;
+    margin-top: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5%;
+    position: absolute;
+    background-color: rgb(255, 203, 32);
+    color: black;
+    font-weight: 700;
+}
+
+.signin-foot {
+    height: 130px;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+    margin-top: 55px;
+    padding: 20px;
+
+}
+
+.back a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232f3e;
+    color: #ffffff;
+    text-decoration: none;
+    height: 50px;
+}
+
+.back a:hover {
+    background-image: linear-gradient(to bottom, #232f3e, rgb(126, 119, 119), #232f3e);
+
+}
+
+.last-foot {
+    height: 400px;
+    background-color: #1c1f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 35px;
+    color: #ffffff;
+    PADDING-top: 100px;
+}
+
+
+
+.last-foot p {
+    font-size: 0.85rem;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Carousel styling */
+.carousel-inner {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-item {
+    position: relative;
+    display: none; /* Hide all items by default */
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Controls styling */
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #992c2c;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-size: 100%, 100%;
+    background-image: none;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .carousel-control-prev, .carousel-control-next {
+        width: 10%;
+    }
+}
+
+/* Ensure the carousel is responsive */
+@media (max-width: 576px) {
+    .carousel-control-prev, .carousel-control-next {
+        width: 15%;
+    }
+}
